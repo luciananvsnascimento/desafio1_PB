@@ -1,0 +1,686 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* --------------------------------- estilo do menu ----------------------------------*/
+header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  background-color: #F5F5F5;
+  justify-content: center;
+  align-items: center;
+  
+}
+.header-line {
+    width: 1208px;
+    height: 2px;
+    background-color: gray;
+    margin: 0 auto; 
+}
+
+nav {
+  width: 1208px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.left-options {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 47.73px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+.menu-options {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-options li {
+  display: inline;
+}
+
+.menu-options a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.right-options {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone {
+  font-size: 16px;
+}
+
+.donate-btn {
+  width: 181px;
+  height: 64px;
+  background-color: #FF3D9A;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart-svg-1 {
+  width: 25.81px;
+  height: 23.14px;
+  padding-right: 10px;
+}
+
+.icon-phone{
+  width: 24px;
+  height: 24px;
+  padding-right: 10px;
+}
+
+/*------------------------------ seção 1 - section-1 ------------------------------*/
+
+.section-forever {
+  width: 100%;
+  height: 816px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  agrupa o aside e a ilustração */
+.main-content {
+  width: 1208px;
+  height: 616px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.info-block {
+  width: 584px;
+  height: 555px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+}
+
+
+.text-block {
+  width: 584px;
+  height: 368px;
+  margin-bottom: 16px;
+}
+
+.h-1 {
+  width: 584px;
+  height: 154px;
+}
+
+
+.h-1 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+
+.text-block p {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38.4px;
+  text-align: left;
+  gap: 24px;
+}
+
+
+.cta-block {
+  width: 584px;
+  height: 139px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+
+.cta-block h3 {
+  width: 584px;
+  height: 51px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.cta-block p {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38.4px;
+  text-align: left;
+}
+
+/* grupo de botões */
+.group-btns {
+  width: 584px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  opacity: 1;
+}
+
+/* botão de doação */
+.donate-btn2 {
+  display: flex;
+  align-items: center; 
+  width: Hug (177px)px;
+  height: Fixed (64px)px;
+  padding: 16px 28px 16px 32px;
+  gap: 8px;
+  background-color: #FF3D9A;
+  color: white;
+  border-radius: 32px;
+  border: none;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+.heart-svg-2 {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px; 
+}
+
+/* botão de adoção */
+.adopt-btn {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 257px;
+  height: 64px;
+  padding: 16px 32px;
+  border-radius: 32px;
+  border: 2px solid #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+
+.icon-dog {
+  width: 29.49px;
+  height: 25px;
+  margin-right: 8px; 
+}
+
+
+/* ilustração */
+.illustration {
+  width: 547px;
+  height: 616px;
+}
+
+.illustration img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* ------------------------------ seção do carrossel ------------------------- */
+.section-carrossel {
+  width: 100%;
+  height: 924px;
+  background-color: #1E1F27;
+}
+
+
+/* --------------------------------seção dos cards -------------------------------- */
+.section-cards-donations {
+  width: 100%;
+  height: 1117px;
+  background-color: #1E1F27;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content-3 {
+  width: 1208px;
+  height: 917px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.donations-section h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 376px;
+  height: 355px;
+  padding: 36px 24px 24px;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  text-align: left;
+}
+
+.card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51.2px;
+  color: white;
+}
+
+.card p {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  width: 304px;
+  height: 192px;
+  opacity: 1;
+  color: white;
+}
+
+.card img {
+  width: 48px;
+  height: 48px;
+}
+
+/* ------------------------------------- seção adoption-------------------------------------------- */
+.section-adoption{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+  height: 907px;
+  background-color: #F5F5F5;
+}
+
+.h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.main-adoption {
+  display: flex;
+  justify-content: space-between;
+  width: 1208px;
+  height: 683px;
+}
+.text-right h3 {
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.left-image {
+  width: 584px;
+  height: 616px;
+}
+
+.left-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  width: 584px;
+  height: 616px;
+  gap: 32px;
+}
+
+.text-right {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.topics {
+  width: 584px;
+  height: 368px;
+}
+
+.topics li {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38.4px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+
+.button {
+  display: flex;
+  justify-content: left;
+}
+
+.apply-btn {
+  width: auto;
+  height: 64px;
+  padding: 16px 32px;
+  gap: 8px;
+  border-radius: 32px;
+  background: #1E1F27;
+  color: #FFFFFF;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+/* --------------------- seção cards goals ------------------------------------ */
+.section-goals {
+  width: 100%;
+  height: 732px;
+  background-color: #1E1F27;
+}
+/* --------------------- -seção find -------------------------------------- */
+.section-find{
+  width: 100%;
+  height: 482px;
+  padding: 80px 0px 120px 0px;
+  background-color: #1E1F27;
+}
+
+/*-------------------------------------  seção subscribe ------------------------------ */
+
+.section-subscribe {
+  width: 100%;
+  height: 431px;
+  background-color: #5758F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* contêiner principal que agrupa o texto e o formulário */
+.content {
+  width: 1208px;
+  height: 271px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+
+.text-area {
+  width: 1208px;
+  text-align: center;
+}
+
+.text-area h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.text-area p {
+  width: 1208px;
+  height: 68px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+/* área do formulário */
+.form-area {
+  width: 1208px;
+  display: flex;
+  justify-content: center;
+}
+
+/* campo de email */
+.email-field {
+  width: 395px;
+  height: 64px;
+  padding: 16px;
+  border-radius: 32px;
+  border: 2px solid #FFFFFF;
+  background-color: #5758F1;
+  font-size: 16px;
+  color: #FFFFFF;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.email-field::placeholder {
+  color: #FFFFFF;
+}
+
+/*  botão de inscrição */
+.subscribe-button {
+  height: 64px;
+  padding: 16px 32px;
+  border-radius: 32px;
+  background-color: #FFFFFF;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1E1F27;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+
+/* ------------------------ Footer-----------------------------  */
+footer {
+  width: 100%;
+  height: 603px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px 80px 0px;
+}
+
+.footer-content {
+  width: 1208px;
+  height: 443px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.name {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.heart-icon {
+  width: 29.04px;
+  height: 26.03px;
+  top: 5.7px;
+  left: 3.48px;
+  gap: 0px;
+  opacity: 1;
+}
+
+.links-area {
+  width: 1208px;
+  height: 272px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  
+}
+
+.logo-f {
+  width: 272px;
+  height: 242px;
+  gap: 19px;
+  opacity: 0px;
+}
+
+
+.logo-footer {
+  width: 100px;
+  height: 100px;
+  gap: 0px;
+
+
+}
+
+.links-row-1,
+.links-row-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.contacts {
+  width: 272px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.social-media-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}  
+.links-row-1,
+.links-row-2,
+.contacts {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #1E1F27;
+  margin: 16px;
+}
+
+
+.text-f {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+
+}
+.divider {
+  width: 100%;
+  margin-top: 40px;
+  border: 2px solid #949494;
+  margin: 24px 0;
+}
+
+.slogan {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: #1E1F27;
+  padding: 30px;
+}
+
+.slogan .highlight {
+  color: #FF4081;
+}
