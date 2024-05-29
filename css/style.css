@@ -100,7 +100,7 @@ nav {
   padding-right: 10px;
 }
 
-/*------------------------------ seção 1 - section-1 ------------------------------*/
+/*------------------------------ seção 1 - section-forever ------------------------------*/
 
 .section-forever {
   width: 100%;
@@ -462,6 +462,118 @@ nav {
   height: 482px;
   padding: 80px 0px 120px 0px;
   background-color: #1E1F27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} 
+
+.main-find{
+  width: 1208px;
+  height: 282px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1; 
+}
+
+.content-h2{
+  width: 1208px;
+  height: 67px;
+  gap: 80px;
+}
+
+.content-h2 h2{
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #F5F5F5;
+  box-sizing: border-box;
+}
+.span-yellow{
+  color: #F8DB46;
+}
+
+.area-find{
+  width: 1208px;
+  height: 155px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.area-find h3{
+  width: 1208px;
+  height: 51px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn-find-group{
+  width: 1208px;
+  height: 64px;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-view-find{
+  width: 238px;
+  height: 64px;
+  padding: 16px 32px 16px 32px;
+  gap: 8px;
+  border-radius: 32px;
+  background-color: #F8DB46;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000;
+}
+
+.btn-apply-find{
+  width: 223px;
+  height: 64px;
+  padding: 16px 32px 16px 32px;
+  gap: 8px;
+  border-radius: 32px;
+  border: 2px solid white;
+  background-color: transparent;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: white;
+}
+
+.two-images-find{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 0; 
+}
+
+.cat-left-find{
+  width: 300px;
+  height: 400px;
+  
+}
+
+.dog-right-find{
+  width: 300px;
+  height: 400px;
+   
 }
 
 /*-------------------------------------  seção subscribe ------------------------------ */
