@@ -48,6 +48,11 @@ nav {
   list-style: none;
   display: flex;
   gap: 20px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
 }
 
 .menu-options li {
@@ -67,7 +72,11 @@ nav {
 }
 
 .phone {
-  font-size: 16px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
 }
 
 .donate-btn {
@@ -452,10 +461,14 @@ nav {
 }
 
 .card h3 {
+  font-family: Poppins;
   font-size: 32px;
   font-weight: 700;
   line-height: 51.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
   color: white;
+  
 }
 
 .card p {
@@ -862,12 +875,13 @@ nav {
 .text-area p {
   width: 1208px;
   height: 68px;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter;
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
+  text-align: center;
   color: #FFFFFF;
-  margin: 0;
+
 }
 
 /* área do formulário */
@@ -892,7 +906,7 @@ nav {
 }
 
 .email-field::placeholder {
-  color: #FFFFFF;
+  color: #ffffffc4;
 }
 
 /*  botão de inscrição */
