@@ -208,8 +208,8 @@ nav {
 .donate-btn2 {
   display: flex;
   align-items: center; 
-  width: Hug (177px)px;
-  height: Fixed (64px)px;
+  width: 177px;
+  height: 64px;
   padding: 16px 28px 16px 32px;
   gap: 8px;
   background-color: #FF3D9A;
@@ -271,8 +271,129 @@ nav {
   width: 100%;
   height: 924px;
   background-color: #1E1F27;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-carrossel{
+  width: 1208px;
+  height: 764px;
+  gap: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  gap: 80px;
+  }
+
+
+.info-carrossel{
+  width:1208px;
+  height: 358px;
+  gap: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
+.stats-carrossel{
+  width: 1208px;
+  height: 144px;
+  gap: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.animals-rescued, .raised, .tails-found{
+  width: 376px;
+  height:144px;
+  gap: 16px;
+}
+
+.animals-rescued h2, .raised h2, .tails-found h2{
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #F8DB46;
+}
+.animals-rescued p, .raised p, .tails-found p{
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color:  #FFFFFF;
+}
+
+.carrossel-h2{
+  width: 1208px;
+  height: 134px;
+}
+
+.carrossel-h2 h2{
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.carrossel{
+  width: 1208px;
+  height: 326px;
+  gap: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.img-carrossel {
+  width: 1208px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-carrossel .arrow-left, .img-carrossel .arrow-right {
+  width: 44px;
+  height: 44px;
+}
+
+.img-carrossel .img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 32px;
+}
+
+.dots {
+  width: 144px;
+  height: 16px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.arrow-left, .arrow-right{
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 22px;
+}
 
 /* --------------------------------seção dos cards -------------------------------- */
 .section-cards-donations {
