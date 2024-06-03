@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desafio</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
     <header>
         <nav>
             <div class="left-options">
@@ -30,19 +35,21 @@
                     <img class="icon-phone" src="image/Icon_Phone.png" alt="Phone Icon">
                     631-249-7325
                 </p>
-                 
-                <button class="donate-btn">
+
+                <button class="donate-btn" onclick="openDonateModal()">
                     <img class="heart-svg-1" src="image/Icon-S2.svg" alt="Heart Icon">
                     Donate
                 </button>
-                
             </div>
+
+
         </nav>
     </header>
     <div class="header-line"></div>
 
-    
+
     <main>
+
         <section class="section-forever">
             <div class="main-content">
                 <aside class="info-block">
@@ -50,8 +57,10 @@
                         <div class="h-1">
                             <h1>Forever Homes Shelter</h1>
                             <p class="text-1">
-                                Our mission is to rescue and provide rehabilitation,<br>to dogs and cats that are critically
-                                injured or <br> neglected. We have already saved the lives of<br> 10,000 animals. We are not just
+                                Our mission is to rescue and provide rehabilitation,<br>to dogs and cats that are
+                                critically
+                                injured or <br> neglected. We have already saved the lives of<br> 10,000 animals. We are
+                                not just
                                 a rescue, we are a <br>refuge.
                             </p>
                         </div>
@@ -60,8 +69,11 @@
                         <h3>Your Gift Helps Save Lives</h3>
 
                         <div class="group-btns">
-                            <button class="donate-btn2"><img class="heart-svg-2" src="image/Icon-S2.svg" alt="Heart Icon">Donate</button>
-                            <button class="adopt-btn"><img class="icon-dog" src="image/Icon-dog.png" alt="Dog Icon">Apply to Adopt</button>
+                            <button class="donate-btn2" onclick="openDonateModal()"><img class="heart-svg-2" src="image/Icon-S2.svg"
+                                    alt="Heart Icon">Donate</button>
+
+                            <button class="adopt-btn" onclick="openModal()"><img class="icon-dog"
+                                    src="image/Icon-dog.png" alt="Dog Icon">Apply to Adopt</button>
                         </div>
                     </div>
                 </aside>
@@ -72,59 +84,59 @@
         </section>
 
         <section class="section-carrossel">
-        <div class="main-carrossel">
-        <div class="info-carrossel">
-            <div class="carrossel-h2">
-                <h2>With your help, we<br> 
-                    accomplished these goals</h2>
-            </div>
-            <div class="stats-carrossel">
-                <div class="animals-rescued">
-                    <h2>1400</h2>
-                    <p>Animals Rescued</p>
+            <div class="main-carrossel">
+                <div class="info-carrossel">
+                    <div class="carrossel-h2">
+                        <h2>With your help, we<br>
+                            accomplished these goals</h2>
+                    </div>
+                    <div class="stats-carrossel">
+                        <div class="animals-rescued">
+                            <h2>1400</h2>
+                            <p>Animals Rescued</p>
+                        </div>
+                        <div class="raised">
+                            <h2>$1.4 Million</h2>
+                            <p>Raised</p>
+                        </div>
+                        <div class="tails-found">
+                            <h2>940</h2>
+                            <p>Tails Found a Home</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="raised">
-                    <h2>$1.4 Million</h2>
-                    <p>Raised</p>
-                </div>
-                <div class="tails-found">
-                    <h2>940</h2>
-                    <p>Tails Found a Home</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="carrossel">
-            <div class="img-carrossel">
-                <div class="arrow-left">
-                    <img src="image/Arrow_Left.png" alt="Left Arrow">
-                </div>
-                <div class="img">
-                    <img src="image/cat1-crsel.png" alt="Cat 1">
-                </div>
-                <div class="img">
-                    <img src="image/cat2-crsel.png" alt="Cat 2">
-                </div>
-                <div class="img">
-                    <img src="image/dog3-crsel.png" alt="Dog 1">
-                </div>
-                <div class="img">
-                    <img src="image/dog4-crsel.png" alt="Dog 2">
-                </div>
-                <div class="arrow-right">
-                    <img src="image/Arrow_Right.png" alt="Right Arrow">
+                <div class="carrossel">
+                    <div class="img-carrossel">
+                        <div class="arrow-left">
+                            <img src="image/Arrow_Left.png" alt="Left Arrow">
+                        </div>
+                        <div class="img">
+                            <img src="image/cat1-crsel.png" alt="Cat 1">
+                        </div>
+                        <div class="img">
+                            <img src="image/cat2-crsel.png" alt="Cat 2">
+                        </div>
+                        <div class="img">
+                            <img src="image/dog3-crsel.png" alt="Dog 1">
+                        </div>
+                        <div class="img">
+                            <img src="image/dog4-crsel.png" alt="Dog 2">
+                        </div>
+                        <div class="arrow-right">
+                            <img src="image/Arrow_Right.png" alt="Right Arrow">
+                        </div>
+                    </div>
+                    <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
                 </div>
             </div>
-            <div class="dots">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-        </div>
-    </div>
-            
+
         </section>
 
         <section class="section-cards-donations">
@@ -192,92 +204,97 @@
         </section>
 
         <section class="section-adoption">
-          <h2 class="h2">Adoption information</h2>
-          <div class="main-adoption">
-            <div class="left-image">
-              <img src="image/Left-image.png" alt="Dog and Cat">
+            <h2 class="h2">Adoption information</h2>
+            <div class="main-adoption">
+                <div class="left-image">
+                    <img src="image/Left-image.png" alt="Dog and Cat">
+                </div>
+                <div class="right-content">
+                    <div class="text-right">
+                        <h3>Applicants must:</h3>
+                    </div>
+                    <div class="topics">
+                        <ul>
+                            <li>Live within a 90 mile radius of our shelter</li>
+                            <li>Accept the financial responsibility of vet care and<br> pet care</li>
+                            <li>Donate $400 to adopt their dog/puppy; $125 for a<br> cat; $150 for a kitten</li>
+                            <li>Be over 23 years of age to adopt a dog and 21<br>years of age to adopt a cat</li>
+                            <li>Be ready to adopt within 7-10 days</li>
+                        </ul>
+                    </div>
+                    <div class="button">
+                        <button class="apply-btn" onclick="openModal()">Apply to Adopt</button>
+                    </div>
+                </div>
             </div>
-            <div class="right-content">
-              <div class="text-right">
-                <h3>Applicants must:</h3>
-              </div>
-              <div class="topics">
-                <ul>
-                  <li>Live within a 90 mile radius of our shelter</li>
-                  <li>Accept the financial responsibility of vet care and<br> pet care</li>
-                  <li>Donate $400 to adopt their dog/puppy; $125 for a<br> cat; $150 for a kitten</li>
-                  <li>Be over 23 years of age to adopt a dog and 21<br>years of age to adopt a cat</li>
-                  <li>Be ready to adopt within 7-10 days</li>
-                </ul>
-              </div>
-              <div class="button">
-                <button class="apply-btn">Apply to Adopt</button>
-              </div>
-            </div>
-          </div>
         </section>
 
         <section class="section-goals">
             <div class="main-goals">
-              <div class="goals-h2">
-                <img class="s2-left" src="image/vector-S2-left.png" alt="Heart Vector">
-                <h2>How you can make<br>a difference</h2>
-                <img class="s2-right" src="image/vector-S2-right.png" alt="Heart Vector">
-              </div>
-          
-              <div class="goals-cards">
-                <div class="card-goals">
-                  <div class="text-block-goals">
-                    <h3 class="h-goals">Adopt or Foster</h3>
-                    <p class="text-goals">Provide a forever or temporary home to a homeless animal.</p>
-                  </div>
-                  <div class="buttons">
-                    <p class="btn-g1">View Adoptables</p>
-                  </div>
+                <div class="goals-h2">
+                    <img class="s2-left" src="image/vector-S2-left.png" alt="Heart Vector">
+                    <h2>How you can make<br>a difference</h2>
+                    <img class="s2-right" src="image/vector-S2-right.png" alt="Heart Vector">
                 </div>
-                <div class="card-goals">
-                  <div class="text-block-goals">
-                    <h3 class="h-goals">Volunteer</h3>
-                    <p class="text-goals">We are always in need of passionate and friendly volunteers.</p>
-                  </div>
-                  <div class="buttons">
-                    <p class="btn-g2">Get Involved</p>
-                  </div>
+
+                <div class="goals-cards">
+                    <div class="card-goals">
+                        <div class="text-block-goals">
+                            <h3 class="h-goals">Adopt or Foster</h3>
+                            <p class="text-goals">Provide a forever or temporary home to a homeless animal.</p>
+                        </div>
+                        <div class="buttons">
+
+                            <p class="btn-g1" onclick="window.location.href='/pages/adoptables.html'">
+                                View Adoptables
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-goals">
+                        <div class="text-block-goals">
+                            <h3 class="h-goals">Volunteer</h3>
+                            <p class="text-goals">We are always in need of passionate and friendly volunteers.</p>
+                        </div>
+                        <div class="buttons">
+                            <p class="btn-g2">Get Involved</p>
+                        </div>
+                    </div>
+                    <div class="card-goals">
+                        <div class="text-block-goals">
+                            <h3 class="h-goals">Donate Monthly</h3>
+                            <p class="text-goals">Regular donations are a reliable stream of funds to help sustain.</p>
+                        </div>
+                        <div class="buttons">
+                            <p class="btn-g3">Give Monthly</p>
+                        </div>
+                    </div>
+                    <div class="card-goals">
+                        <div class="text-block-goals">
+                            <h3 class="h-goals">Start a Fundraiser</h3>
+                            <p class="text-goals">Start a fundraiser to raise funds and help us continue our mission.
+                            </p>
+                        </div>
+                        <div class="buttons">
+                            <button class="btn-g4">Learn More</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-goals">
-                  <div class="text-block-goals">
-                    <h3 class="h-goals">Donate Monthly</h3>
-                    <p class="text-goals">Regular donations are a reliable stream of funds to help sustain.</p>
-                  </div>
-                  <div class="buttons">
-                    <p class="btn-g3">Give Monthly</p>
-                  </div>
-                </div>
-                <div class="card-goals">
-                  <div class="text-block-goals">
-                    <h3 class="h-goals">Start a Fundraiser</h3>
-                    <p class="text-goals">Start a fundraiser to raise funds and help us continue our mission.</p>
-                  </div>
-                  <div class="buttons">
-                    <button class="btn-g4">Learn More</button>
-                  </div>
-                </div>
-              </div>
             </div>
-          </section>
-          
+        </section>
+
 
         <section class="section-find">
             <div class="main-find">
                 <div class="content-h2">
-                <h2><img class="" src="" alt="">Find your <span class="span-yellow">best friend </span>today!</h2>
+                    <h2><img class="" src="" alt="">Find your <span class="span-yellow">best friend </span>today!</h2>
                 </div>
                 <div class="area-find">
-                <h3>Browse our adorable adoptables</h3>
-                <div class="btn-find-group">
-                    <button class="btn-view-find">View Adoptables</button>
-                    <button class="btn-apply-find">Apply to Adopt</button>
-                </div>
+                    <h3>Browse our adorable adoptables</h3>
+                    <div class="btn-find-group">
+                        <button class="btn-view-find" onclick="window.location.href='/pages/adoptables.html'">View
+                            Adoptables</button>
+                        <button class="btn-apply-find" onclick="openModal()">Apply to Adopt</button>
+                    </div>
                 </div>
             </div>
             <div class="two-images-find">
@@ -288,17 +305,15 @@
         </section>
 
         <section class="section-subscribe">
-            <div class="content">
+            <div class="main-subscribe">
                 <div class="text-area">
                     <h2>Subscribe to our newsletter</h2>
                     <p>for updates on shelter events, fundraising parties, and heartwarming stories <br>of animals
                         finding their forever homes.</p>
                 </div>
-                <div class="form-area">
-                    <form>
-                        <input type="email" class="email-field" placeholder="Enter your email">
-                        <button type="submit" class="subscribe-button">Subscribe</button>
-                    </form>
+                <div class="subscribe-area">
+                    <input type="email" class="subscribe-email" placeholder="Enter your email">
+                    <button type="submit" class="subscribe-button">Subscribe</button>
                 </div>
             </div>
         </section>
@@ -346,7 +361,7 @@
                                 <span class="text-16">PO Box 83644</span><br>
                                 <span class="text-17">Middleton, 2452 Wilson</span>
                             </div>
-                            
+
                         </div>
                         <div class="phone-1">
                             <img class="icon-c" src="image/Icon_Phone.png" alt="Phone Icon" />
@@ -363,7 +378,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <hr class="divider">
             <div class="slogan">
@@ -372,9 +387,8 @@
         </div>
     </footer>
 
+    <script src="/js/script.js"></script>
 
-    <script src="js/script.js"></script>
-    
 </body>
 
 </html>

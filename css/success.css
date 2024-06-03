@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #F5F5F5;
+  }
+  
+  /* --------------------------------- estilo do menu ----------------------------------*/
+  header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background-color: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  nav {
+    width: 1208px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .left-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 47.73px;
+    height: 48px;
+    margin-right: 20px;
+  }
+  
+  .menu-options {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+  
+  .menu-options li {
+    display: inline;
+  }
+  
+  .menu-options a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .right-options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .phone {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+  }
+  
+  .donate-btn {
+    width: 181px;
+    height: 64px;
+    background-color: #FF3D9A;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 32px;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heart-svg-1 {
+    width: 25.81px;
+    height: 23.14px;
+    padding-right: 10px;
+  }
+  
+  .icon-phone{
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+  }
+
+.header-line {
+    width: 1208px;
+    height: 2px;
+    background-color: gray;
+    margin: 0 auto; 
+}
+
+/*-----------------------main success --------------------*/
+
+main{
+    width: 100%;
+    height: 860px;
+    padding: 80px 120px 80px 120px;
+    gap: 40px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-success{
+    width: 1272px;
+    height: 327px;
+    gap: 40px;
+}
+
+.info-block-success{
+    width: 584px;
+    height: 327px;
+    gap: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.success-back {
+    width: 156px;
+    height: 64px;
+    padding: 16px 32px;
+    gap: 8px;
+    border-radius: 32px;
+    background-color: #37383F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-success{
+    width: 584px;
+    height:215px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #1E1F27;
+}
+
+p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: left;
+    color: #37383F;
+}

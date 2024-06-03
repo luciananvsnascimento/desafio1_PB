@@ -16,13 +16,14 @@ header {
   background-color: #F5F5F5;
   justify-content: center;
   align-items: center;
-  
+
 }
+
 .header-line {
-    width: 1208px;
-    height: 2px;
-    background-color: gray;
-    margin: 0 auto; 
+  width: 1208px;
+  height: 2px;
+  background-color: gray;
+  margin: 0 auto;
 }
 
 nav {
@@ -30,7 +31,7 @@ nav {
   height: 64px;
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .left-options {
@@ -103,7 +104,7 @@ nav {
   padding-right: 10px;
 }
 
-.icon-phone{
+.icon-phone {
   width: 24px;
   height: 24px;
   padding-right: 10px;
@@ -216,7 +217,7 @@ nav {
 /* botão de doação */
 .donate-btn2 {
   display: flex;
-  align-items: center; 
+  align-items: center;
   width: 177px;
   height: 64px;
   padding: 16px 28px 16px 32px;
@@ -235,14 +236,14 @@ nav {
 .heart-svg-2 {
   width: 32px;
   height: 32px;
-  margin-right: 8px; 
+  margin-right: 8px;
 }
 
 /* botão de adoção */
 .adopt-btn {
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 257px;
   height: 64px;
   padding: 16px 32px;
@@ -258,7 +259,7 @@ nav {
 .icon-dog {
   width: 29.49px;
   height: 25px;
-  margin-right: 8px; 
+  margin-right: 8px;
 }
 
 
@@ -285,39 +286,45 @@ nav {
   flex-direction: column;
   justify-content: center;
 }
-.main-carrossel{
+
+.main-carrossel {
   width: 1208px;
   height: 764px;
   gap: 80px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: space-between;
   gap: 80px;
-  }
+}
 
 
-.info-carrossel{
-  width:1208px;
+.info-carrossel {
+  width: 1208px;
   height: 358px;
   gap: 80px;
   display: flex;
   flex-direction: column;
 }
 
-.stats-carrossel{
+.stats-carrossel {
   width: 1208px;
   height: 144px;
   gap: 40px;
   display: flex;
   flex-direction: row;
 }
-.animals-rescued, .raised, .tails-found{
+
+.animals-rescued,
+.raised,
+.tails-found {
   width: 376px;
-  height:144px;
+  height: 144px;
   gap: 16px;
 }
 
-.animals-rescued h2, .raised h2, .tails-found h2{
+.animals-rescued h2,
+.raised h2,
+.tails-found h2 {
   font-family: Poppins;
   font-size: 64px;
   font-weight: 700;
@@ -326,22 +333,25 @@ nav {
   text-align: center;
   color: #F8DB46;
 }
-.animals-rescued p, .raised p, .tails-found p{
+
+.animals-rescued p,
+.raised p,
+.tails-found p {
   font-family: Poppins;
   font-size: 32px;
   font-weight: 700;
   line-height: 51.2px;
   letter-spacing: -0.02em;
   text-align: center;
-  color:  #FFFFFF;
+  color: #FFFFFF;
 }
 
-.carrossel-h2{
+.carrossel-h2 {
   width: 1208px;
   height: 134px;
 }
 
-.carrossel-h2 h2{
+.carrossel-h2 h2 {
   font-family: Poppins;
   font-size: 56px;
   font-weight: 700;
@@ -351,7 +361,7 @@ nav {
   color: #FFFFFF;
 }
 
-.carrossel{
+.carrossel {
   width: 1208px;
   height: 326px;
   gap: 60px;
@@ -369,7 +379,8 @@ nav {
   justify-content: space-between;
 }
 
-.img-carrossel .arrow-left, .img-carrossel .arrow-right {
+.img-carrossel .arrow-left,
+.img-carrossel .arrow-right {
   width: 44px;
   height: 44px;
 }
@@ -396,7 +407,8 @@ nav {
   border-radius: 50%;
 }
 
-.arrow-left, .arrow-right{
+.arrow-left,
+.arrow-right {
   width: 44px;
   height: 44px;
   padding: 10px;
@@ -468,7 +480,7 @@ nav {
   letter-spacing: -0.02em;
   text-align: left;
   color: white;
-  
+
 }
 
 .card p {
@@ -489,11 +501,11 @@ nav {
 }
 
 /* ------------------------------------- seção adoption-------------------------------------------- */
-.section-adoption{
+.section-adoption {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 907px;
   background-color: #F5F5F5;
@@ -516,6 +528,7 @@ nav {
   width: 1208px;
   height: 683px;
 }
+
 .text-right h3 {
   font-family: Poppins, sans-serif;
   font-size: 32px;
@@ -621,7 +634,8 @@ nav {
   color: #FFFFFF;
 }
 
-.s2-left, .s2-right {
+.s2-left,
+.s2-right {
   width: 58.25px;
   height: 45.3px;
 }
@@ -677,11 +691,13 @@ nav {
 .buttons {
   display: flex;
   justify-content: center;
-  
+
 }
 
-
-.btn-g1, .btn-g2, .btn-g3, .btn-g4 {
+.btn-g1,
+.btn-g2,
+.btn-g3,
+.btn-g4 {
   width: 224px;
   height: 64px;
   padding: 16px 24px;
@@ -715,7 +731,7 @@ nav {
 
 
 /* --------------------- -seção find -------------------------------------- */
-.section-find{
+.section-find {
   width: 100%;
   height: 482px;
   padding: 80px 0px 120px 0px;
@@ -724,25 +740,25 @@ nav {
   justify-content: center;
   align-items: center;
   position: relative;
-} 
+}
 
-.main-find{
+.main-find {
   width: 1208px;
   height: 282px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 1; 
+  z-index: 1;
 }
 
-.content-h2{
+.content-h2 {
   width: 1208px;
   height: 67px;
   gap: 80px;
 }
 
-.content-h2 h2{
+.content-h2 h2 {
   font-family: Poppins;
   font-size: 56px;
   font-weight: 700;
@@ -752,11 +768,12 @@ nav {
   color: #F5F5F5;
   box-sizing: border-box;
 }
-.span-yellow{
+
+.span-yellow {
   color: #F8DB46;
 }
 
-.area-find{
+.area-find {
   width: 1208px;
   height: 155px;
   gap: 40px;
@@ -764,7 +781,7 @@ nav {
   flex-direction: column;
 }
 
-.area-find h3{
+.area-find h3 {
   width: 1208px;
   height: 51px;
   font-family: Poppins;
@@ -776,15 +793,15 @@ nav {
   color: #FFFFFF;
 }
 
-.btn-find-group{
+.btn-find-group {
   width: 1208px;
   height: 64px;
   gap: 24px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
-.btn-view-find{
+.btn-view-find {
   width: 238px;
   height: 64px;
   gap: 8px;
@@ -796,10 +813,10 @@ nav {
   line-height: 28px;
   color: #000;
   justify-content: left;
-  
+
 }
 
-.btn-apply-find{
+.btn-apply-find {
   width: 223px;
   height: 64px;
   padding: 16px 32px 16px 32px;
@@ -814,25 +831,25 @@ nav {
   color: white;
 }
 
-.two-images-find{
+.two-images-find {
   position: absolute;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  z-index: 0; 
+  z-index: 0;
 }
 
-.cat-left-find{
+.cat-left-find {
   width: 300px;
   height: 400px;
-  
+
 }
 
-.dog-right-find{
+.dog-right-find {
   width: 300px;
   height: 400px;
-   
+
 }
 
 /*-------------------------------------  seção subscribe ------------------------------ */
@@ -847,7 +864,7 @@ nav {
 }
 
 /* contêiner principal que agrupa o texto e o formulário */
-.content {
+.main-subscribe {
   width: 1208px;
   height: 271px;
   display: flex;
@@ -885,14 +902,18 @@ nav {
 }
 
 /* área do formulário */
-.form-area {
+.subscribe-area {
   width: 1208px;
+  height: 64px;
+  gap: 24px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 /* campo de email */
-.email-field {
+.subscribe-email {
   width: 395px;
   height: 64px;
   padding: 16px;
@@ -905,14 +926,16 @@ nav {
   box-sizing: border-box;
 }
 
-.email-field::placeholder {
-  color: #ffffffc4;
+.subscribe-area::placeholder {
+  color: #fffafac4;
 }
 
 /*  botão de inscrição */
 .subscribe-button {
-  height: 64px;
-  padding: 16px 32px;
+  width: Hug (170px)px;
+  height: Fixed (64px)px;
+  padding: 16px 32px 16px 32px;
+  gap: 8px;
   border-radius: 32px;
   background-color: #FFFFFF;
   border: none;
@@ -970,7 +993,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
-  
+
 }
 
 .logo-f {
@@ -1001,10 +1024,10 @@ footer {
   height: 232px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 
 }
+
 .social-media-icons {
   display: flex;
   gap: 10px;
@@ -1014,7 +1037,8 @@ footer {
 .social-icon {
   width: 24px;
   height: 24px;
-}  
+}
+
 .links-row-1,
 .links-row-2,
 .contacts {
@@ -1036,6 +1060,7 @@ footer {
   text-align: left;
 
 }
+
 .divider {
   width: 100%;
   margin-top: 40px;
@@ -1056,3 +1081,4 @@ footer {
 .slogan .highlight {
   color: #FF4081;
 }
+
