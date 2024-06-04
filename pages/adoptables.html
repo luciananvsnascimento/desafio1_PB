@@ -13,6 +13,64 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
+    <div id="donateModal" class="modal-donate">
+        <div class="modal-content-donate">
+
+            <div class="header-donate">
+                <h1>Choose your<br> Donate</h1>
+            </div>
+
+            <div class="donate-area">
+
+                <div class="donate-mail">
+                    <p>EMAIL <span class="simbol">*</span></p>
+                    <input type="email" class="input-donate" id="email" placeholder="youremail@here.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"required>
+                    <p id="email-error" style="color: red; display: none;">Please enter a valid email address.</p>
+                </div>
+
+                <div class="money-field">
+                    <p>HOW MUCH CAN YOU HELP?<span class="simbol">*</span></p>
+                    <input type="text" class="input-donate" id="amount" placeholder="R$ 95,00" pattern="[0-9]*" required>
+                    <p id="amount-error" style="color: red; display: none;">Please enter a valid number.</p>
+                </div>
+
+                <div class="payment-field">
+                    <p>PAYMENT METHOD<span class="simbol">*</span></p>
+                    <div class="methods-payment">
+                        <div class="payment1">
+                            <input type="radio" id="pix" name="payment-method" value="pix" class="radio-payment" required>
+                            <label for="pix" class="payment-label">
+                                <p>Pix</p>
+                                <div class="shape"></div>
+                            </label>
+                        </div>
+                        <div class="payment1">
+                            <input type="radio" id="credit-card" name="payment-method" value="credit-card"
+                                class="radio-payment" required>
+                            <label for="credit-card" class="payment-label">
+                                <p>Credit Card</p>
+                                <div class="shape"></div>
+                            </label>
+                        </div>
+                        <div class="payment1">
+                            <input type="radio" id="paypal" name="payment-method" value="paypal" class="radio-payment"
+                                required>
+                            <label for="paypal" class="payment-label">
+                                <p>PayPal</p>
+                                <div class="shape"></div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button class=" help-btn" onclick="submitForm()"><img class="i-help" src="/image/Icon-S2.svg" alt="help">I
+                    wanna Help!</button>
+                <button class="cancel2-btn" onclick="closeModal()">
+                    <img class="i-left" src="/image/left-cancel.png" alt="help">Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+
 
 <body>
     <header>
@@ -32,7 +90,7 @@
             <div class="right-options">
                 <p class="phone"><img class="icon-phone" src="/image/Icon_Phone.png" alt="Phone Icon">631-249-7325</p>
 
-                <button class="donate-btn"><img class="heart-svg-1" src="/image/Icon-S2.svg"
+                <button class="donate-btn" onclick="openModalDonate()"><img class="heart-svg-1" src="/image/Icon-S2.svg"
                         alt="Heart Icon">Donate</button>
 
             </div>
@@ -190,6 +248,7 @@
             </div>
         </div>
     </footer>
+    <script src="/js/adoptables.js"></script>
 
 </body>
 

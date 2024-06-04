@@ -1,370 +1,614 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #F5F5F5;
-  }
-  
-  /* --------------------------------- estilo do menu ----------------------------------*/
-  header {
-    width: 100%;
-    height: 120px;
-    display: flex;
-    background-color: #F5F5F5;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  
-  nav {
-    width: 1208px;
-    height: 64px;
-    display: flex;
-    justify-content: space-between;
-    
-  }
-  
-  .left-options {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    width: 47.73px;
-    height: 48px;
-    margin-right: 20px;
-  }
-  
-  .menu-options {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 32px;
-    text-align: left;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-  
-  .menu-options li {
-    display: inline;
-  }
-  
-  .menu-options a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .right-options {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .phone {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 32px;
-    text-align: left;
-  }
-  
-  .donate-btn {
-    width: 181px;
-    height: 64px;
-    background-color: #FF3D9A;
-    color: white;
-    border: none;
-    padding: 16px;
-    border-radius: 32px;
-    cursor: pointer;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .heart-svg-1 {
-    width: 25.81px;
-    height: 23.14px;
-    padding-right: 10px;
-  }
-  
-  .icon-phone{
-    width: 24px;
-    height: 24px;
-    padding-right: 10px;
-  }
-  /*--------------------------adoptables section----------------------------*/
+body {
+  background-color: #F5F5F5;
+}
 
-  .adoptables-pets {
-    width: 100%;
-    height: 1289px;
-    padding: 80px 0px;
-    background-color:  #1E1F27;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* --------------------------------- estilo do menu ----------------------------------*/
+header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  background-color: #F5F5F5;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav {
+  width: 1208px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.left-options {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 47.73px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+.menu-options {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+
+.menu-options li {
+  display: inline;
+}
+
+.menu-options a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.right-options {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+.donate-btn {
+  width: 181px;
+  height: 64px;
+  background-color: #FF3D9A;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart-svg-1 {
+  width: 25.81px;
+  height: 23.14px;
+  padding-right: 10px;
+}
+
+.icon-phone {
+  width: 24px;
+  height: 24px;
+  padding-right: 10px;
+}
+
+/*--------------------------adoptables section----------------------------*/
+
+.adoptables-pets {
+  width: 100%;
+  height: 1289px;
+  padding: 80px 0px;
+  background-color: #1E1F27;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pets-content {
-    width: 1208px;
-    height: 1129px;
-    gap: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 1208px;
+  height: 1129px;
+  gap: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .text-info {
-    width: 1208px;
-    height: 211px;
-    gap: 80px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+  width: 1208px;
+  height: 211px;
+  gap: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .back {
-    width: 156px;
-    height: 64px;
-    padding: 16px 32px;
-    gap: 8px;
-    border-radius: 32px;
-    background-color: #37383F;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 32px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 156px;
+  height: 64px;
+  padding: 16px 32px;
+  gap: 8px;
+  border-radius: 32px;
+  background-color: #37383F;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
-    font-family: Poppins;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 67.2px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: white;
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: white;
 }
 
 .carrossel-img {
-    width: 1208px;
-    height: 838px;
-    gap: 60px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 1208px;
+  height: 838px;
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.row-1{
-    width: 100%;
-    height: 389px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+.row-1 {
+  width: 100%;
+  height: 389px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.row-2{
-    width: 100%;
-    height: 389px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+.row-2 {
+  width: 100%;
+  height: 389px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
 
 .animal {
-    width: 250px;
-    height: 389px;
-    gap: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 250px;
+  height: 389px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .animal img {
-    width: 250px;
-    height: 250px;
-    border-radius: 32px;
+  width: 250px;
+  height: 250px;
+  border-radius: 32px;
 }
 
 .animal p {
-    width: 250px;
-    height: 51px;
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 51.2px;
-    letter-spacing: -0.02em;
-    text-align: center;  
-    color: white;  
+  width: 250px;
+  height: 51px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: white;
 }
+
 button .i-animal {
-    width: 32px;
-    height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .see-more {
-    width: 250px;
-    height: 64px;
-    padding: 16px 32px;
-    gap: 8px;
-    border-radius: 32px;
-    border: 2px solid;
-    background-color: #FF3D9A;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 600;
+  width: 250px;
+  height: 64px;
+  padding: 16px 32px;
+  gap: 8px;
+  border-radius: 32px;
+  border: 2px solid;
+  background-color: #FF3D9A;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 /* ------------------------ Footer-----------------------------  */
 footer {
-    width: 100%;
-    height: 603px;
-    background-color: #F5F5F5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 0px 80px 0px;
-  }
-  
-  .footer-content {
-    width: 1208px;
-    height: 443px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-  }
-  
-  .name {
-    font-family: Poppins;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 36px;
-    text-align: left;
-  }
-  
-  .heart-icon {
-    width: 29.04px;
-    height: 26.03px;
-    top: 5.7px;
-    left: 3.48px;
-    gap: 0px;
-    opacity: 1;
-  }
-  
-  .links-area {
-    width: 1208px;
-    height: 272px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 20px;
-    
-  }
-  
-  .logo-f {
-    width: 272px;
-    height: 242px;
-    gap: 19px;
-    opacity: 0px;
-  }
-  
-  
-  .logo-footer {
-    width: 100px;
-    height: 100px;
-    gap: 0px;
-  
-  
-  }
-  
-  .links-row-1,
-  .links-row-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 19px;
-  }
-  
-  .contacts {
-    width: 272px;
-    height: 232px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  .social-media-icons {
-    display: flex;
-    gap: 10px;
-    margin-top: 16px;
-  }
-  
-  .social-icon {
-    width: 24px;
-    height: 24px;
-  }  
-  .links-row-1,
-  .links-row-2,
-  .contacts {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 32px;
-    text-align: left;
-    color: #1E1F27;
-    margin: 16px;
-  }
-  
-  
-  .text-f {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 32px;
-    text-align: left;
-  
-  }
-  .divider {
-    width: 100%;
-    margin-top: 40px;
-    border: 2px solid #949494;
-    margin: 24px 0;
-  }
-  
-  .slogan {
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    text-align: center;
-    color: #1E1F27;
-    padding: 30px;
-  }
-  
-  .slogan .highlight {
-    color: #FF4081;
-  }
-  
+  width: 100%;
+  height: 603px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px 80px 0px;
+}
+
+.footer-content {
+  width: 1208px;
+  height: 443px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.name {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+.heart-icon {
+  width: 29.04px;
+  height: 26.03px;
+  top: 5.7px;
+  left: 3.48px;
+  gap: 0px;
+  opacity: 1;
+}
+
+.links-area {
+  width: 1208px;
+  height: 272px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+.logo-f {
+  width: 272px;
+  height: 242px;
+  gap: 19px;
+  opacity: 0px;
+}
+
+
+.logo-footer {
+  width: 100px;
+  height: 100px;
+  gap: 0px;
+
+
+}
+
+.links-row-1,
+.links-row-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.contacts {
+  width: 272px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.links-row-1,
+.links-row-2,
+.contacts {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #1E1F27;
+  margin: 16px;
+}
+
+
+.text-f {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+
+}
+
+.divider {
+  width: 100%;
+  margin-top: 40px;
+  border: 2px solid #949494;
+  margin: 24px 0;
+}
+
+.slogan {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: #1E1F27;
+  padding: 30px;
+}
+
+.slogan .highlight {
+  color: #FF4081;
+}
+
+
+
+.modal-donate {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 40%;
+  right: 40%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.modal-content-donate {
+  width: 480px;
+  padding: 32px;
+  gap: 48px;
+  border-radius: 32px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+.header-donate {
+  width: 416px;
+  height: 116px;
+}
+
+.header-donate h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #1E1F27;
+
+}
+
+.donate-area {
+  width: 416px;
+  height: 488px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.donate-mail,
+.money-field {
+  width: 416px;
+  height: 80px;
+  gap: 8px;
+}
+
+.payment-field {
+  width: 416px;
+  height: 104px;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.payment-field p,
+.donate-mail p,
+.money-field p,
+.payment-field p {
+  width: 173px;
+  height: 16px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #ff3d9a;
+}
+
+.simbol {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #3F96FC;
+}
+
+input.input-donate {
+  width: 416px;
+  height: 56px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #3F96FC;
+}
+
+.methods-payment {
+  width: 416px;
+  height: 80px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.payment1 {
+  width: 133.33px;
+  height: 56px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--blue-light, #3F96FC);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+}
+
+.payment1 input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  appearance: none;
+  cursor: pointer;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.payment1 input[type="radio"]:checked {
+  background-color: #FF3D9A;
+}
+
+.payment1 .payment-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 0 8px;
+}
+
+.payment1 p {
+  width: auto;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: black;
+}
+
+.payment1 .shape {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.payment1 input[type="radio"]+.payment-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.payment1 input[type="radio"]:checked+.payment-label {
+  background-color: #3F96FC;
+  border-radius: 8px;
+  color: white;
+}
+
+.payment1 input[type="radio"]:checked+.payment-label p {
+  color: white;
+}
+
+
+.help-btn {
+  width: 249px;
+  height: 64px;
+  padding: 16px 32px;
+  gap: 8px;
+  border-radius: 32px;
+  background-color: #FF3D9A;
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cancel2-btn {
+  width: 177px;
+  height: 64px;
+  padding: 16px 32px;
+  gap: 8px;
+  border-radius: 32px;
+  background-color: #37383F;
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-help {
+  width: 25.81px;
+  height: 23.14px;
+  top: 5.07px;
+  left: 3.09px;
+}
+
+.i-left {
+  width: 12px;
+  height: 22px;
+  top: 5px;
+  left: 9px;
+}
