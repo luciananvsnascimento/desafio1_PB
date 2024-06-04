@@ -14,6 +14,144 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
+    <div id="adoptModal" class="modal">
+      <div class="modal-content">
+        <div class="info-modal">
+          <h1 class="h1-modal">Apply to Adopt</h1>
+          <p class="p-info">Small text description can go here</p>
+        </div>
+        <form id="adoptForm">
+          <div class="form-field">
+            <div class="email-field-modal">
+              <p class="email-modal">EMAIL <span>*</span></p>
+              <input type="email" class="input-email-modal" id="email" placeholder="youremail@here.com" required>
+            </div>
+            <div class="name-field">
+              <p class="fullname">FULL NAME <span>*</span></p>
+              <input type="text" class="input-fullname" id="fullname" placeholder="Your name" required>
+            </div>
+            <div class="birth-field">
+              <p class="birth">DATE OF BIRTH <span>*</span></p>
+              <div class="date-field">
+                <select class="day" required>
+                  <option value="">Day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="31">31</option>
+                </select>
+                <select class="month" required>
+                  <option value="">Month</option>
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6">June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+                <select class="year" required>
+                  <option value="">Year</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="terms-content">
+            <div class="terms">
+              <input type="checkbox" class="shape" required>
+              <p class="iagree-terms">
+                I agree with the <span class="terms-span">Privacy Policy</span> and <span class="terms-span">Terms of Conditions</span>.
+              </p>
+            </div>
+            <div class="wrap-btn">
+              <button type="submit" class="iwanna-btn" id="adoptFormSubmit">
+                <img class="icon" src="/image/icon-dog-white.png" alt="Dog Adoption Icon" />
+                I wanna Adopt!
+              </button>
+              <button type="button" class="cancel-btn" onclick="closeModal()">
+                <img class="left" src="/image/left-cancel.png" alt="Cancel Icon" />
+                Cancel
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <div id="donateModal" class="modal-donate">
+        <div class="modal-content-donate">
+
+            <div class="header-donate">
+                <h1>Choose your<br> Donate</h1>
+            </div>
+
+            <div class="donate-area">
+
+                <div class="donate-mail">
+                    <p>EMAIL <span class="simbol">*</span></p>
+                    <input type="email" class="input-donate" id="email" placeholder="youremail@here.com" required>
+                    <p id="email-error" style="color: red; display: none;">Please enter a valid email address.</p>
+                </div>
+
+                <div class="money-field">
+                    <p>HOW MUCH CAN YOU HELP?<span class="simbol">*</span></p>
+                    <input type="text" class="input-donate" id="amount" placeholder="R$ 95,00" pattern="[0-9]*" required>
+                    <p id="amount-error" style="color: red; display: none;">Please enter a valid number.</p>
+                </div>
+
+                <div class="payment-field">
+                    <p>PAYMENT METHOD<span class="simbol">*</span></p>
+                    <div class="methods-payment">
+                        <div class="payment1">
+                            <input type="radio" id="pix" name="payment-method" value="pix" class="radio-payment" required>
+                            <label for="pix" class="payment-label">
+                                <p>Pix</p>
+                                <div class="shape"></div>
+                            </label>
+                        </div>
+                        <div class="payment1">
+                            <input type="radio" id="credit-card" name="payment-method" value="credit-card"
+                                class="radio-payment" required>
+                            <label for="credit-card" class="payment-label">
+                                <p>Credit Card</p>
+                                <div class="shape"></div>
+                            </label>
+                        </div>
+                        <div class="payment1">
+                            <input type="radio" id="paypal" name="payment-method" value="paypal" class="radio-payment"
+                                required>
+                            <label for="paypal" class="payment-label">
+                                <p>PayPal</p>
+                                <div class="shape"></div>
+                            </label>
+              </div>
+            </div>
+          </div>
+          <button class="help-btn" id="donateFormSubmit">
+            <img class="i-help" src="/image/Icon-S2.svg" alt="help">I wanna Help!
+          </button>
+          <button class="cancel2-btn" onclick="closeModal()">
+            <img class="i-left" src="/image/left-cancel.png" alt="help">Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+
+
 <body>
 
     <header>
@@ -69,8 +207,8 @@
                         <h3>Your Gift Helps Save Lives</h3>
 
                         <div class="group-btns">
-                            <button class="donate-btn2" onclick="openDonateModal()"><img class="heart-svg-2" src="image/Icon-S2.svg"
-                                    alt="Heart Icon">Donate</button>
+                            <button class="donate-btn2" onclick="openDonateModal()"><img class="heart-svg-2"
+                                    src="image/Icon-S2.svg" alt="Heart Icon">Donate</button>
 
                             <button class="adopt-btn" onclick="openModal()"><img class="icon-dog"
                                     src="image/Icon-dog.png" alt="Dog Icon">Apply to Adopt</button>
@@ -387,8 +525,9 @@
         </div>
     </footer>
 
+
     <script src="/js/script.js"></script>
 
 </body>
-
+   
 </html>
