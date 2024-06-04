@@ -8,7 +8,6 @@ body {
   background-color: #F5F5F5;
 }
 
-/* --------------------------------- estilo do menu ----------------------------------*/
 header {
   width: 100%;
   height: 120px;
@@ -110,8 +109,6 @@ nav {
   padding-right: 10px;
 }
 
-/*------------------------------ seção 1 - section-forever ------------------------------*/
-
 .section-forever {
   width: 100%;
   height: 816px;
@@ -121,7 +118,7 @@ nav {
   align-items: center;
 }
 
-/*  agrupa o aside e a ilustração */
+
 .main-content {
   width: 1208px;
   height: 616px;
@@ -204,7 +201,7 @@ nav {
   text-align: left;
 }
 
-/* grupo de botões */
+
 .group-btns {
   width: 584px;
   height: 64px;
@@ -214,7 +211,6 @@ nav {
   opacity: 1;
 }
 
-/* botão de doação */
 .donate-btn2 {
   display: flex;
   align-items: center;
@@ -239,22 +235,21 @@ nav {
   margin-right: 8px;
 }
 
-/* botão de adoção */
-.adopt-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 257px;
-  height: 64px;
-  padding: 16px 32px;
-  border-radius: 32px;
-  border: 2px solid #000;
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: left;
-}
+  .adopt-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 257px;
+    height: 64px;
+    padding: 16px 30px;
+    border-radius: 32px;
+    border: 2px solid #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+  }
 
 .icon-dog {
   width: 29.49px;
@@ -262,8 +257,6 @@ nav {
   margin-right: 8px;
 }
 
-
-/* ilustração */
 .illustration {
   width: 547px;
   height: 616px;
@@ -275,8 +268,6 @@ nav {
   object-fit: cover;
 }
 
-
-/* ------------------------------ seção do carrossel ------------------------- */
 .section-carrossel {
   width: 100%;
   height: 924px;
@@ -361,7 +352,7 @@ nav {
 }
 
 .carrossel {
-  width: 1208px;
+  width: 100%;
   height: 326px;
   gap: 60px;
   display: flex;
@@ -376,12 +367,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.img-carrossel .arrow-left,
-.img-carrossel .arrow-right {
-  width: 44px;
-  height: 44px;
 }
 
 .img-carrossel .img img {
@@ -415,7 +400,6 @@ nav {
   border-radius: 22px;
 }
 
-/* --------------------------------seção dos cards -------------------------------- */
 .section-cards-donations {
   width: 100%;
   height: 1117px;
@@ -499,7 +483,6 @@ nav {
   height: 48px;
 }
 
-/* ------------------------------------- seção adoption-------------------------------------------- */
 .section-adoption {
   display: flex;
   flex-direction: column;
@@ -596,7 +579,6 @@ nav {
   cursor: pointer;
 }
 
-/* --------------------- seção cards goals ------------------------------------ */
 .section-goals {
   width: 100%;
   height: 732px;
@@ -712,24 +694,25 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
+  
 }
 
 .btn-g2 {
-  background: var(--yellow-dark, #F1D06E);
+  background-color:  #F1D06E;
+  color: #1E1F27;
+  
 }
 
 .btn-g3 {
-  background: var(--pink, #FF3D9A);
+  background-color: #FF3D9A;
+  color: #FFFFFF;
 }
 
 .btn-g4 {
-  background: var(--purple, #5758F1);
+  background:#5758F1;
+  color: #FFFFFF;
 }
 
-
-
-/* --------------------- -seção find -------------------------------------- */
 .section-find {
   width: 100%;
   height: 482px;
@@ -851,8 +834,6 @@ nav {
 
 }
 
-/*-------------------------------------  seção subscribe ------------------------------ */
-
 .section-subscribe {
   width: 100%;
   height: 431px;
@@ -862,7 +843,6 @@ nav {
   align-items: center;
 }
 
-/* contêiner principal que agrupa o texto e o formulário */
 .main-subscribe {
   width: 1208px;
   height: 271px;
@@ -871,7 +851,6 @@ nav {
   align-items: center;
   gap: 60px;
 }
-
 
 .text-area {
   width: 1208px;
@@ -900,7 +879,6 @@ nav {
 
 }
 
-/* área do formulário */
 .subscribe-area {
   width: 1208px;
   height: 64px;
@@ -911,7 +889,7 @@ nav {
   flex-direction: row;
 }
 
-/* campo de email */
+
 .subscribe-email {
   width: 395px;
   height: 64px;
@@ -926,15 +904,14 @@ nav {
 }
 
 .subscribe-area::placeholder {
-  color: #ece4e4c4;
+  color: #fffdfdfe;
   margin-left: 10px;
 
 }
 
-/*  botão de inscrição */
 .subscribe-button {
-  width: Hug (170px)px;
-  height: Fixed (64px)px;
+  width: 170px;
+  height: 64px;
   padding: 16px 32px 16px 32px;
   gap: 8px;
   border-radius: 32px;
@@ -948,8 +925,6 @@ nav {
   margin-left: 16px;
 }
 
-
-/* ------------------------ Footer-----------------------------  */
 footer {
   width: 100%;
   height: 603px;
@@ -1083,7 +1058,6 @@ footer {
   color: #FF4081;
 }
 
-/*---------------------------*/
 .modal {
   display: none;
   position: fixed;
@@ -1184,7 +1158,8 @@ form {
 .input-email-modal::placeholder,
 .input-fullname::placeholder,
 select::placeholder {
-  color: #37383F;
+  color: #73747d;
+  margin-left:10px;
 }
 
 .date-field {
@@ -1262,10 +1237,6 @@ select::placeholder {
   margin-right: 8px;
 }
 
-
-
-/*------------------------------modal donate-------------------*/
-
 .modal-donate {
   display: none;
   position: fixed;
@@ -1285,7 +1256,6 @@ select::placeholder {
   padding: 32px;
   gap: 48px;
   border-radius: 32px;
-  border: 1px solid black;
   background-color: white;
 }
 

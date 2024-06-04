@@ -24,45 +24,77 @@
           <div class="form-field">
             <div class="email-field-modal">
               <p class="email-modal">EMAIL <span>*</span></p>
-              <input type="email" class="input-email-modal" id="email" placeholder="youremail@here.com" required>
+              <input type="email" class="input-email-modal" id="email" placeholder=" youremail@here.com" required>
             </div>
             <div class="name-field">
               <p class="fullname">FULL NAME <span>*</span></p>
-              <input type="text" class="input-fullname" id="fullname" placeholder="Your name" required>
+              <input type="text" class="input-fullname" id="fullname" placeholder=" Your name" required>
             </div>
             <div class="birth-field">
-              <p class="birth">DATE OF BIRTH <span>*</span></p>
-              <div class="date-field">
+                <p class="birth">DATE OF BIRTH <span>*</span></p>
+                <div class="date-field">
                 <select class="day" required>
-                  <option value="">Day</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="31">31</option>
+                    <option value="" disabled selected>Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>                    
                 </select>
                 <select class="month" required>
-                  <option value="">Month</option>
-                  <option value="1">January</option>
-                  <option value="2">February</option>
-                  <option value="3">March</option>
-                  <option value="4">April</option>
-                  <option value="5">May</option>
-                  <option value="6">June</option>
-                  <option value="7">July</option>
-                  <option value="8">August</option>
-                  <option value="9">September</option>
-                  <option value="10">October</option>
-                  <option value="11">November</option>
-                  <option value="12">December</option>
+                    <option value="" disabled selected>Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
                 </select>
                 <select class="year" required>
-                  <option value="">Year</option>
-                  <option value="2020">2020</option>
-                  <option value="2021">2021</option>
-                  <option value="2022">2022</option>
-                  <option value="2023">2023</option>
-                  <option value="2024">2024</option>
+                    <option value="" disabled selected>Year</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
                 </select>
               </div>
             </div>
@@ -96,46 +128,40 @@
             <div class="header-donate">
                 <h1>Choose your<br> Donate</h1>
             </div>
-
             <div class="donate-area">
-
                 <div class="donate-mail">
                     <p>EMAIL <span class="simbol">*</span></p>
                     <input type="email" class="input-donate" id="email" placeholder="youremail@here.com" required>
-                    <p id="email-error" style="color: red; display: none;">Please enter a valid email address.</p>
                 </div>
-
                 <div class="money-field">
                     <p>HOW MUCH CAN YOU HELP?<span class="simbol">*</span></p>
                     <input type="text" class="input-donate" id="amount" placeholder="R$ 95,00" pattern="[0-9]*" required>
-                    <p id="amount-error" style="color: red; display: none;">Please enter a valid number.</p>
                 </div>
-
                 <div class="payment-field">
-                    <p>PAYMENT METHOD<span class="simbol">*</span></p>
-                    <div class="methods-payment">
-                        <div class="payment1">
-                            <input type="radio" id="pix" name="payment-method" value="pix" class="radio-payment" required>
-                            <label for="pix" class="payment-label">
-                                <p>Pix</p>
-                                <div class="shape"></div>
-                            </label>
-                        </div>
-                        <div class="payment1">
-                            <input type="radio" id="credit-card" name="payment-method" value="credit-card"
-                                class="radio-payment" required>
-                            <label for="credit-card" class="payment-label">
-                                <p>Credit Card</p>
-                                <div class="shape"></div>
-                            </label>
-                        </div>
-                        <div class="payment1">
-                            <input type="radio" id="paypal" name="payment-method" value="paypal" class="radio-payment"
-                                required>
-                            <label for="paypal" class="payment-label">
-                                <p>PayPal</p>
-                                <div class="shape"></div>
-                            </label>
+                <p>PAYMENT METHOD<span class="simbol">*</span></p>
+                <div class="methods-payment">
+                <div class="payment1">
+                    <input type="radio" id="pix" name="payment-method" value="pix" class="radio-payment" required>
+                    <label for="pix" class="payment-label">
+                        <p>Pix</p>
+                        <div class="shape"></div>
+                    </label>
+                </div>
+            <div class="payment1">
+                <input type="radio" id="credit-card" name="payment-method" value="credit-card"
+                    class="radio-payment" required>
+                <label for="credit-card" class="payment-label">
+                    <p>Credit Card</p>
+                    <div class="shape"></div>
+                </label>
+            </div>
+            <div class="payment1">
+                <input type="radio" id="paypal" name="payment-method" value="paypal" class="radio-payment"
+                    required>
+                <label for="paypal" class="payment-label">
+                    <p>PayPal</p>
+                    <div class="shape"></div>
+                </label>
               </div>
             </div>
           </div>
@@ -246,7 +272,7 @@
 
                 <div class="carrossel">
                     <div class="img-carrossel">
-                        <div class="arrow-left">
+                        <div class="arrow-left" id="arrow-left">
                             <img src="image/Arrow_Left.png" alt="Left Arrow">
                         </div>
                         <div class="img">
@@ -256,10 +282,10 @@
                             <img src="image/cat2-crsel.png" alt="Cat 2">
                         </div>
                         <div class="img">
-                            <img src="image/dog3-crsel.png" alt="Dog 1">
+                            <img src="image/dog3-crsel.png" alt="Dog 3">
                         </div>
                         <div class="img">
-                            <img src="image/dog4-crsel.png" alt="Dog 2">
+                            <img src="image/dog4-crsel.png" alt="Dog 4">
                         </div>
                         <div class="arrow-right">
                             <img src="image/Arrow_Right.png" alt="Right Arrow">
@@ -274,7 +300,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <section class="section-cards-donations">

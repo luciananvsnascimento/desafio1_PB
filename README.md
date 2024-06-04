@@ -1,6 +1,6 @@
 Projeto Rescue Center - Challenge I
 
-Desenvolvido como Desafio 1 do programa de bolsas de estágio da Compass UOL, esse projeto tem como objetivo desenvolver um site de resgate de animais utilizando HTML, CSS e JavaScript.
+Desafio 1 do programa de bolsas de estágio da Compass UOL, esse projeto tem como objetivo desenvolver um site de resgate de animais utilizando HTML, CSS e JavaScript. O design e a interface do usuário foram desenvolvidos com base no layout fornecido no Figma.
 
 Estrutura do Projeto:
 
