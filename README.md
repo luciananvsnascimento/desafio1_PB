@@ -12,10 +12,11 @@ css: Pasta com os estilos para as páginas
 
 image: Pasta para armazenar imagens do projeto
 
-js: Scripts para as páginas
+js: Pasta com os scripts para as páginas
 
  - adoptables.js: Scripts específicos para a página de animais adotáveis
  - script.js: Scripts gerais para a página principal
+
 pages: Pasta para as páginas do site
 
  - adoptables.html: Página que lista os animais disponíveis para adoção
